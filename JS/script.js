@@ -18,7 +18,7 @@ if (Age < 18) {
     " €,non sono previsti sconti per la tua fascia d'età.";
 }
 
-if (isNaN(normalPrice)) {
-  alert("Solo numeri !!!!!");
+if (isNaN(Distance && Age)) {
+  alert("Mancano dei dati..");
   document.getElementById("price").innerHTML = "nullo, meglio tu vada a piedi.";
 }
